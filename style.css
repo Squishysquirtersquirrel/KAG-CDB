@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo:800");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 681px;
+  height: 384px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  overflow: hidden;
+  position: absolute;
+  border-radius: 16px;
+  -webkit-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+}
+
+svg {
+  position: absolute;
+  z-index: 1;
+  width: 681px;
+  height: 384px;
+}
+
+button {
+  position: absolute;
+  z-index: 50;
+  width: 40px;
+  overflow: hidden;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+}
+button:focus {
+  outline-width: 0;
+}
+
+circle {
+  stroke: #fff;
+  fill: none;
+  transition: 0.3s;
+}
+
+#svg1 circle {
+  transition-timing-function: linear;
+}
+
+#svg2 circle {
+  transition-timing-function: linear;
+}
+
+#Capa_1 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  transform: translate(-7px, -8px);
+}
+
+#Capa_2 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  transform: translate(-9px, -8px);
+}
+
+.right {
+  margin-left: 628px;
+  margin-top: 168px;
+  border: 1px solid #849494;
+  background-color: transparent;
+  transition: 0.5s;
+}
+.right:hover {
+  background-color: #fff;
+}
+
+.left {
+  margin-left: 0.5%;
+  margin-top: 168px;
+  border: 1px solid #849494;
+  background-color: transparent;
+  transition: 0.5s;
+}
+.left:hover {
+  background-color: #fff;
+}
+
+.circle1 {
+  transition-delay: 0.05s;
+}
+
+.circle2 {
+  transition-delay: 0.1s;
+}
+
+.circle3 {
+  transition-delay: 0.15s;
+}
+
+.circle4 {
+  transition-delay: 0.2s;
+}
+
+.circle5 {
+  transition-delay: 0.25s;
+}
+
+.circle6 {
+  transition-delay: 0.3s;
+}
+
+.circle7 {
+  transition-delay: 0.35s;
+}
+
+.circle8 {
+  transition-delay: 0.4s;
+}
+
+.circle9 {
+  transition-delay: 0.45s;
+}
+
+.circle10 {
+  transition-delay: 0.05s;
+}
+
+.circle11 {
+  transition-delay: 0.1s;
+}
+
+.circle12 {
+  transition-delay: 0.15s;
+}
+
+.circle13 {
+  transition-delay: 0.2s;
+}
+
+.circle14 {
+  transition-delay: 0.25s;
+}
+
+.circle15 {
+  transition-delay: 0.3s;
+}
+
+.circle16 {
+  transition-delay: 0.35s;
+}
+
+.circle17 {
+  transition-delay: 0.4s;
+}
+
+.circle18 {
+  transition-delay: 0.45s;
+}
+
+.slide1 {
+  background-image: url("https://lh3.googleusercontent.com/Bkm_PrfPOm9is6WcBUbI0xVpASt9FXF-FfHX31vyoL2-5gSP9_BEoSzqbSwOI9jANm7hnbPHzCkc1ZVE-Cw7ps3b2qRy2ONp5a2qRBo1sOKDswdfC1914v4lkHxPhoiTEFluVafkAqO8vhXvNWrPyu0gs6Lgg4wTN1tcDXPfFGj1Z1YQ03Ag_un3tXSJS_gN7imQnyGuo5e2kCRu0FUeolur0Umq-Z4dYxyTnxPz5r-bKAToqNIXesiVukmBLpHruWEunDWtjr8J1DPhZDxI2pIyfdClEX5PI5EQ9XRvpu2SLFp3uufr5CeDkwoA-eLtQqltj5aq9ktjDKN8I0VHozC0eCmCiGJFH3E0_kmYXGM7nbDzHSZDFSXfeq6eeFLwLsPDPiIDUAADzEM2tHHDvW7GLlo7-M3eopHOOy-odKNeJhs4COyAMDPwpF4dFRCVVJVGYhhMBhQMJBPJxPzynCfsRJq4wG-pny7-5WAU3kARjdWmr2F88Utz-WN4dVjOe9uGgdkCRNknw9dUufhygA-c05sooSRsnqjG0kcEcZVa0h3L4PsQw3T0b3h0ZIrqBUChypA16fLR-JqAZleVDsMNtTZ_g9Qok2JsDnwlCv_uz2D8TC8Y71hiLX5jtCFn4EUce3WgSH0NOSRlSdD5ZBj4WBHEsnOB29yN4d-rmQxWWv3A_9-h_67Oct6BEDewwBuM3VR3AMbbkzb3gOQJmBc=w452-h938-no?authuser=2");
+}
+
+.slide2 {
+  background-image: url("https://lh3.googleusercontent.com/EDYfvD0GQlRjEEW5T1C3fz_ScNuoWkV4PifQoY2LLD6xPn4Fgeaz4HYd4h8H4ceS_NsPtHCT89Yt22pixI1rwXOKvTtWijDo57INnLkjKwZrdpKAAfdaYKUeIHxV9l6YO4BUqyNiFohPpAl-bSSAQ0EaFDXJYJzFJCHBXeAG9xFkzovA9ug2Gh1CL0gssxs9L0Jy99aJP9WKgZARL066Q8K55T1gp72xPi0-XEbnHnnnFNPLn9ZbGZVcp-9eFf8v1PfznkxvA12xlh53gN542KcYHP-MvbH5f5WR9p3foWAYiAuKgjfsrOQfz5PRJrsoY2wSx6qLR-2QWRuJRW1HQrrtaZfIINBfVBNxVwMYby6MvG5Pi42L-1WE97DrkJ9pNCe9-0RBy4X30_omiwkcTDgqQAi_yJP5JxUWOl1d6R_0vvLX5KcQP6cXqQwBq4CxSyqxjLHBOfMVUHt-du3nkEWjHWhpz_ICFYs8B_Hdj1KHexSCAwdPnSf_BIqM8VUZ-_SXsg5uDEP484Q1pOYsyTSfDgphvCfTE-Em07D83JzpclQzuXjJI_bXWYOUe1WBT6tTmnzVPUuEXj4Ve3MMp-krEqgenFop7VQLXW-lfp1tPfnmKF7NprWGZNnpHU-GfR-jTMqXEV6uqUMVT5Sfd0OKZklXkh-3A0xn81WECQHJAAm9NeXYOh2fyCgwV1evozvYOhIHjk-buxCwzZaVwtA=w458-h937-no?authuser=2");
+}
+
+.slide3 {
+  background-image: url("https://lh3.googleusercontent.com/YHL5CjDx4flrydD0dlgxzncOGQTeNbkJfl3UCl69uEHvG6HSkdrjPhHA4JegNSwofHnL9P4gxsUD8GT5DO6TXBbn5juv696-QeqOYisMwEh0J9s7etmusNxyzyTRJCN4fRMdbPHQ0R0HiAWP2VvFv6CMqh2baXFEU_2Vqis59pbrfB1KU5w_ic2D86uoeZBB0nuSyJ3aepFyoRfqgl6JGOMuRnQr9BKl_LA2DU9-iBL5wZqcdLo1bV89P0g8DL6WjPnXrwO-7CBbl-bBZPS3trk-lbKQjDfmaMN8DPcQVGM2FDaxlDWScC2BoCTnSW1qId5NYMhTw9JrfOr8WbS74Zi0Ly2XcuggZqJpCHNWBbthhMSJmlv390FTbqhX1fyBiwcHMP8I8GRT5ElS8XVL0cpwZcE0OI6x_PqD3eJ91nw17OdnygDd0qIXxKQpVYQHUKbNaiLMnwiYm9HSCYyYXVFpvt9Z_ramiy9omLDJ4zMvouH8A4VZw6Wekzthb4EH1VJZbaht81D-P_UGkl8MOs8ndyL9XibaD5-qsTbCZVZ_eeNsfrb_4UJuqKEvmDLJh3-y6tLt4UyBLSf0THhhKdXlwNjj4QPuaPXNG6J3Fjjyb-FOpwXC-tg3eURFNeJ6dKj1Rg-jf2Yk-L52hAAtdwKdOb70c1Kn2fAS-RcM7y8JjnTg10T73lg3NdKNSSxsvcBUyfE8laX-caCMEEmaNCY=w1000-h640-no?authuser=2");
+}
+
+.slide4 {
+  background-image: url("https://lh3.googleusercontent.com/JBwc-eg5F4-qFEEoVohT-SQpXWYFgM_vCU5CK17I3LZftVf3JhLaqMt1xQ67XjwhfU6bsD37N8bKvN2uvKZF_Iirkb2H53q5FTacg1xIHR9WDiFO9F0CZievMBini72ofM3JqoKO1nbscnsrcI7wKxkFkCLYF-o2Sea-UKhbDGYcPpWtb8Wb3B9vp-xNgzbOFm30h_d4_v2WsARVN9PMVxyzb1R_nJYBRpd1KWHeczyd70YHJgJ8_y3ZyyjOkEKio-w8jCTz_C-_tkK4RA690pFKtjS7626POedu9dEu-43DFLxg1qe_2ccn-mjBrnG3wAfFGBaC4jOKDZxZjCdW-EA2VJWr2zicQDQmvC8ett39YEdFU80qZbAnlp71Grg6mE30B0sTRmvLKmCDq3GDvtoHhDwBqgixJgYUUff1-5D_Es9zvDGmpW6eXy64wqma4BQhV0x1FHyIm3tL-Ub1ri5ftTH2cho7Q4Zgmx7qhCWJw7sn9Wj8z2pBVLjs17RpLv3vsFYrB6ZngkzpuLGrVTiK1lzi0eLbbND4wFtCK0EJs-3FrkHKyz_1vmpV56tpoJGzE9V3ODJ3kiLyPvKYx9iVFNxqRDkfGUbY_89PgCyLgHMOy--bLUHSZV1yQtXAN2tg2hNlZ8XMwKDJpNxG-FQ1Etbe6ux-DBlB9_sWF9K0LY-6XI1CWfWI65Z7m9y4ndO1x5kzpLLfY4DgkHWQ3Dg=w1300-h636-no?authuser=2");
+}
+
+.slider {
+  position: absolute;
+  width: 400%;
+  height: 100%;
+  background: #000;
+  display: inline-flex;
+  overflow: hidden;
+}
+
+.slide1, .slide2, .slide3, .slide4 {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  color: #00FFCC;
+  font-size: 55px;
+  padding-top: 305px;
+  font-weight: 800;
+  font-family: "Heebo", sans-serif;
+  text-align: center;
+  width: 25%;
+  height: 100%;
+  z-index: 10;
+  transition: 1.4s;
+}
+
+.tran {
+  transform: scale(1.3);
+}
+
+.up1 {
+  z-index: 20;
+}
+
+.up2 {
+  z-index: 40;
+}
+
+.steap {
+  stroke-width: 0;
+}
+
+.streak {
+  stroke-width: 82px;
+}
+
+@media (max-width: 700px) {
+  .parent {
+    margin-left: 1%;
+  }
+}
